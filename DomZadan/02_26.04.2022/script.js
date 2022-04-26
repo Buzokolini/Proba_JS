@@ -20,5 +20,5 @@ let a1 = prompt("Введите обязательную статью расхо
     appdata.expenses.a1 = a2;
     appdata.expenses.a3 = a4;
 
-    alert("Ваш бюджет на 1 день: " + appdata.budjet / 30 + "рублей");
+    alert("Ваш бюджет на 1 день: " + appdata.budjet / 30 + " рублей");
     
