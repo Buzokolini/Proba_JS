@@ -1,6 +1,6 @@
 'use strict';
 //
-
+//let arr = ['deda', 'bade', 'goga'];
 // arr.pop();
 // arr.push("5");
 // arr.shift();
@@ -17,15 +17,15 @@
 
 // console.log(arr);
 
-// let mass = [1, 3, 4, 6, 7];
+let mass = [1, 3, 4, 6, 7];
 
-// for(let key in mass) {
-//     console.log(key);
-// }
+for(let key in mass) {
+    console.log(key);
+}
 
-// for(let key of mass) {
-//     console.log(key);
-// }
+for(let key of mass) {
+    console.log(key);
+}
 
 // let ans = prompt("", ""),
 //     arr = [];
@@ -43,13 +43,13 @@
 
 // console.log(arr);
 
-// let arr = [1, 15, 4],
-//     i = arr.sort(compareNum);
+let arr = [1, 15, 4],
+    i = arr.sort(compareNum);
 
-// function compareNum(a,b){
-//     return a-b;
-// }
-// console.log(arr);
+function compareNum(a,b){
+    return a-b;
+}
+console.log(arr);
 
 let soldier = {
     health: 400,
